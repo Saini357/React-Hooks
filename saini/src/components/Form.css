@@ -1,0 +1,48 @@
+/* Form.css */
+
+.container {
+  width: 60%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Adjust input styling */
+input {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+/* Add some spacing for better readability */
+br {
+  margin-bottom: 12px;
+}
+
+/* Style Chakra UI Button */
+.chakra-button {
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.chakra-button:hover {
+  background-color: #2c70c3;
+}
+
+/* Error message styling */
+.error {
+  color: #e53e3e;
+  font-size: 14px;
+  margin-top: 5px; /* Add some margin at the top for spacing */
+}
